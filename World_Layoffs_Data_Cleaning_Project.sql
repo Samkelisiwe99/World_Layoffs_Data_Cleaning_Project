@@ -121,6 +121,7 @@ AND percentage_laid_off IS NULL;
 
 SELECT * 
 FROM layoffs_staging2;
+
 --- Removing Columns
 ALTER TABLE layoffs_staging2
 DROP COLUMN row_num;
